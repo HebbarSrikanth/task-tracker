@@ -4,8 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy":"sh deploy.sh",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "backend": "json-server --watch db.json --port 5000",
